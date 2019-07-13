@@ -38,7 +38,7 @@
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
-            font-size: 18px;
+            font-size: 16px;
             line-height: 21px;
             width: 337px;
             padding: 27px 20px;
@@ -50,21 +50,17 @@
         }
     }
 
-    .btn-submit {
-        background: #01C974;
+    .btn-success {
+        // background: #01C974;
         border-radius: 10px !important;
-        color: #fff;
+        // color: #fff;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 19px;
         line-height: 26px;
         width: 337px;
-        padding: 7px;
-
-        /* identical to box height */
-
-        color: #FFFFFF;
+        padding: 10px 7px;
 
 
     }

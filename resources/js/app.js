@@ -6,3 +6,6 @@
 
 require('./bootstrap');
 
+require('./menuToggle');
+require('./calendar');
+

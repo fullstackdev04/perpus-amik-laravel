@@ -1,5 +1,6 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap');
 
 // Variables
 @import 'variables';
@@ -9,6 +10,6 @@
 
 
 // components
-
-// login
 @import './components/login.scss';
+@import './components/home.scss';
+@import './components/panel.scss';
