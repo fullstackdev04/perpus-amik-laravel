@@ -27,3 +27,7 @@ Route::get('/home', function() {
 Route::get('/biliobigraphy', function() {
     return view('bilio');
 });
+
+Route::get('/biliobigraphy/tambah', function() {
+    return view('form.bilio-form');
+});

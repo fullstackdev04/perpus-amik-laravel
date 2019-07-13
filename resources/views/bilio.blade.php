@@ -12,14 +12,20 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Judul</th>
+                    <th scope="col">ISBN/ISNN</th>
+                    <th scope="col">Salinan</th>
+                    <th scope="col">Perubahan Terakhir</th>
+                    <th scope="col">Lokasi</th>
+                    <th scope="col">Aksi</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
                     <td>Mark</td>
                     <td>Otto</td>
                     <td>@mdo</td>
@@ -29,12 +35,18 @@
                     <td>Jacob</td>
                     <td>Thornton</td>
                     <td>@fat</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
                     <td>Larry</td>
                     <td>the Bird</td>
                     <td>@twitter</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
                 </tr>
             </tbody>
         </table>
