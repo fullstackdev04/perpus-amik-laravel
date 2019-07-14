@@ -47,3 +47,7 @@ Route::get('/eksemplar', function() {
 Route::get('/eksemplar-keluar', function() {
     return view('eksemplar/eksemplar-keluar');
 });
+
+Route::get('/dokumen', function() {
+    return view('dokumen');
+});
