@@ -10774,7 +10774,7 @@ a.text-dark:focus {
   color: #B4B3BD;
 }
 
-#wrapper .list-group-item a:hover {
+#wrapper a:hover {
   background: rgba(196, 196, 196, 0.06);
 }
 
