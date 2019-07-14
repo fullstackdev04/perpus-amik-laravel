@@ -51,3 +51,8 @@ Route::get('/eksemplar-keluar', function() {
 Route::get('/dokumen', function() {
     return view('dokumen');
 });
+
+
+Route::get('/keterlambatan', function() {
+    return view('keterlambatan');
+});
