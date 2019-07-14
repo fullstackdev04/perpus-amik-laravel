@@ -11141,6 +11141,346 @@ a.text-dark:focus {
   margin-right: auto;
 }
 
+#bilio tr,
+#bilio th {
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#bilio td {
+  vertical-align: middle;
+  text-align: left;
+}
+
+#bilio td h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+
+#bilio td span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #B0B8BD;
+}
+
+#bilio .tr {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#bilio img {
+  width: 40px;
+}
+
+#bilio th {
+  color: #01142D;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 20px;
+}
+
+#bilio .search {
+  background: #FFFFFF;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 8px 20px;
+  color: #666;
+}
+
+#bilio .pagination-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#bilio .pagination {
+  display: inline-block;
+  height: 40px;
+  margin-top: 20px;
+  padding: 0 25px;
+  border-radius: 35px;
+  background-color: #fff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+  border: 1px solid #eee;
+}
+
+@media only screen and (max-width: 1199px) {
+  #bilio .pagination {
+    height: 50px;
+    margin-top: 50px;
+    padding: 0 10px;
+    border-radius: 25px;
+  }
+}
+
+#bilio .page-numbers {
+  display: block;
+  padding: 0 25px;
+  float: left;
+  transition: 400ms ease;
+  color: #595959;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 40px;
+  text-decoration: none;
+  outline: none;
+}
+
+#bilio .page-numbers:hover,
+#bilio .page-numbers.current {
+  background-color: #38c172;
+  color: #fff;
+}
+
+#bilio .page-numbers.prev:hover,
+#bilio .page-numbers.next:hover {
+  background-color: transparent;
+  color: #38c172;
+}
+
+@media only screen and (max-width: 1199px) {
+  #bilio .page-numbers {
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (min-width: 120px) and (max-width: 1024px) {
+  #bilio .page-numbers {
+    padding: 0 14px;
+    display: none;
+  }
+
+  #bilio .page-numbers:nth-of-type(2) {
+    position: relative;
+    padding-right: 50px;
+  }
+
+  #bilio .page-numbers:nth-of-type(2)::after {
+    content: "...";
+    position: absolute;
+    font-size: 25px;
+    top: 0;
+    left: 45px;
+  }
+
+  #bilio .page-numbers:nth-child(-n+3),
+  #bilio .page-numbers:nth-last-child(-n+3) {
+    display: block;
+  }
+
+  #bilio .page-numbers:nth-last-child(-n+4) {
+    padding-right: 14px;
+  }
+
+  #bilio .page-numbers:nth-last-child(-n+4)::after {
+    content: none;
+  }
+}
+
+#form-bilio h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 21px;
+  display: inline-block;
+  color: #01142D;
+}
+
+#keanggotaan h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 21px;
+  display: inline-block;
+  color: #01142D;
+}
+
+#keanggotaan .right {
+  display: inline-block;
+  margin-right: auto;
+}
+
+#keanggotaan tr,
+#keanggotaan th {
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#keanggotaan td {
+  vertical-align: middle;
+  text-align: left;
+}
+
+#keanggotaan td h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+
+#keanggotaan td span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #B0B8BD;
+}
+
+#keanggotaan .tr {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#keanggotaan img {
+  width: 50px;
+  border-radius: 25px !important;
+  height: 50px;
+  background-position: center;
+}
+
+#keanggotaan th {
+  color: #01142D;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 20px;
+}
+
+#keanggotaan .search {
+  background: #FFFFFF;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 8px 20px;
+  color: #666;
+}
+
+#keanggotaan .pagination-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#keanggotaan .pagination {
+  display: inline-block;
+  height: 40px;
+  margin-top: 20px;
+  padding: 0 25px;
+  border-radius: 35px;
+  background-color: #fff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+  border: 1px solid #eee;
+}
+
+@media only screen and (max-width: 1199px) {
+  #keanggotaan .pagination {
+    height: 50px;
+    margin-top: 50px;
+    padding: 0 10px;
+    border-radius: 25px;
+  }
+}
+
+#keanggotaan .page-numbers {
+  display: block;
+  padding: 0 25px;
+  float: left;
+  transition: 400ms ease;
+  color: #595959;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 40px;
+  text-decoration: none;
+  outline: none;
+}
+
+#keanggotaan .page-numbers:hover,
+#keanggotaan .page-numbers.current {
+  background-color: #38c172;
+  color: #fff;
+}
+
+#keanggotaan .page-numbers.prev:hover,
+#keanggotaan .page-numbers.next:hover {
+  background-color: transparent;
+  color: #38c172;
+}
+
+@media only screen and (max-width: 1199px) {
+  #keanggotaan .page-numbers {
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (min-width: 120px) and (max-width: 1024px) {
+  #keanggotaan .page-numbers {
+    padding: 0 14px;
+    display: none;
+  }
+
+  #keanggotaan .page-numbers:nth-of-type(2) {
+    position: relative;
+    padding-right: 50px;
+  }
+
+  #keanggotaan .page-numbers:nth-of-type(2)::after {
+    content: "...";
+    position: absolute;
+    font-size: 25px;
+    top: 0;
+    left: 45px;
+  }
+
+  #keanggotaan .page-numbers:nth-child(-n+3),
+  #keanggotaan .page-numbers:nth-last-child(-n+3) {
+    display: block;
+  }
+
+  #keanggotaan .page-numbers:nth-last-child(-n+4) {
+    padding-right: 14px;
+  }
+
+  #keanggotaan .page-numbers:nth-last-child(-n+4)::after {
+    content: none;
+  }
+}
+
 #form-bilio h3 {
   font-family: Roboto;
   font-style: normal;
