@@ -12,6 +12,7 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
+                    <th scpe="col"><input type="checkbox"></th>
                     <th scope="col">Judul</th>
                     <th scope="col">ISBN/ISNN</th>
                     <th scope="col">Salinan</th>
@@ -23,30 +24,60 @@
             <tbody>
                 <tr>
                     <th scope="row">1</th>
+                    <td><input type="checkbox" name="" id=""></td>
                     <td>Mark</td>
                     <td>Otto</td>
                     <td>@mdo</td>
                     <td>Mark</td>
                     <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>
+                        <div class="row">
+                            <div class="col col-lg-4"><a class="text-white" href="#"><i class="fa fa-pencil"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col col-lg-4"><a href="#" class="text-white"><i class="fa fa-trash"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
+                    <td><input type="checkbox" name="" id=""></td>
                     <td>Jacob</td>
                     <td>Thornton</td>
                     <td>@fat</td>
                     <td>Mark</td>
                     <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>
+                        <div class="row">
+                            <div class="col col-lg-4"><a class="text-white" href="#"><i class="fa fa-pencil"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col col-lg-4"><a href="#" class="text-white"><i class="fa fa-trash"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
+                    <td><input type="checkbox" name="" id=""></td>
                     <td>Larry</td>
                     <td>the Bird</td>
                     <td>@twitter</td>
                     <td>Mark</td>
                     <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>
+                        <div class="row">
+                            <div class="col col-lg-4"><a class="text-white" href="#"><i class="fa fa-pencil"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col col-lg-4"><a href="#" class="text-white"><i class="fa fa-trash"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </td>
                 </tr>
             </tbody>
         </table>
