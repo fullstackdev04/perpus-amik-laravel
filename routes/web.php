@@ -35,3 +35,7 @@ Route::get('/biliobigraphy/tambah', function() {
 Route::get('/anggota', function() {
     return view('anggota');
 });
+
+Route::get('/anggota/tambah', function() {
+    return view('form.anggota-form');
+});

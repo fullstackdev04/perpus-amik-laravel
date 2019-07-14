@@ -71,6 +71,15 @@
                     </div>
 
                     <div class="form-group">
+                        <label for="koleksi">Jenis Kelamin</label>
+                        <select class="form-control" id="koleksi">
+                            <option>Laki - Laki</option>
+                            <option>Perempuan</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-group">
                         <label for="penerbit">Penerbit</label>
                         <input type="text" class="form-control" id="penerbit">
                     </div>
