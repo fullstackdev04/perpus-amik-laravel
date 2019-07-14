@@ -39,3 +39,11 @@ Route::get('/anggota', function() {
 Route::get('/anggota/tambah', function() {
     return view('form.anggota-form');
 });
+
+Route::get('/eksemplar', function() {
+    return view('eksemplar');
+});
+
+Route::get('/eksemplar-keluar', function() {
+    return view('eksemplar/eksemplar-keluar');
+});
